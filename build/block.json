@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "sehende/meinsehcheck-wp",
+  "version": "0.6.6",
+  "title": "Mein Seh-Check",
+  "category": "embed",
+  "icon": "visibility",
+  "description": "Fügen Sie Ihren Seh-Check zu Ihrer WordPress-Webseite hinzu.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "meinsehcheck-wp",
+  "editorScript": "file:./main.js",
+  "editorStyle": "file:./main.css",
+  "style": "file:./style-main.css"
+}
